@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Karla", sans-serif;
+}
+.landing {
+  width: 46%;
+  height: 72%;
+  border-radius: 10px;
+  border: solid white 2px;
+}
+.intro {
+  background-color: white;
+  padding-top: 40px;
+  font-size: 0.9rem;
+  padding-left: 38px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+.intro h2 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 20px;
+}
+.intro h3 {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 20px;
+}
+.intro p {
+  color: hsl(203, 6%, 57%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.p1 {
+  padding-bottom: 8px;
+}
+
+.cards {
+  display: flex;
+}
+.card1 {
+  width: 50%;
+  background-color: #2ab3b0;
+  padding: 40px 38px;
+  border-bottom-left-radius: 10px;
+}
+.card1 h3 {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.card1 span {
+  color: white;
+  font-size: 2rem;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.card1 .pp {
+  color: #4fcaca;
+  margin-bottom: 10px;
+}
+.card1 .ppp {
+  color: white;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #bedf30;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 11px;
+  cursor: pointer;
+}
+.card2 {
+  width: 50%;
+  background-color: #49bebd;
+  padding: 40px 38px;
+  border-bottom-right-radius: 10px;
+}
+.card2 h3 {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  color: #a8e9eb;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+@media (max-width: 375px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    font-family: "Karla", sans-serif;
+  }
+  .landing {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .cards {
+    display: grid;
+  }
+  .card1 {
+    width: 100%;
+    border-bottom-left-radius: 0;
+  }
+  .card2 {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+  }
+}
+/*@media (min-width: 1147px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    font-family: "Karla", sans-serif;
+  }
+  .landing {
+    width: 40%;
+    margin-top: 20px;
+  }
+  .cards {
+    display: grid;
+  }
+  .card1 {
+    width: 100%;
+    border-bottom-left-radius: 0;
+  }
+  .card2 {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+  }
+} */
